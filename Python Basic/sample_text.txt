@@ -1,0 +1,3 @@
+Hello, you can contact me at john.doe@example.com or jane.smith@company.org.
+For urgent queries, call +1-800-555-0199 or (123) 456-7890.
+My secondary email is hello_world123@gmail.com, and my old number was 9876543210.
