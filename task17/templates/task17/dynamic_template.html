@@ -1,0 +1,21 @@
+<!-- task17/templates/task17/dynamic_template.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Template</title>
+</head>
+<body>
+    <h1>Task 17: Dynamic Templates with Data</h1>
+    <h2>Book List</h2>
+    <ul>
+        {% for book in books %}
+            <li>{{ book.title }} by {{ book.author }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Message:</h2>
+    <p>{{ message }}</p>
+</body>
+</html>

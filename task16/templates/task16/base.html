@@ -1,0 +1,26 @@
+<!-- task16/templates/task16/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Base Template{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Task 16</h1>
+        <nav>
+            <a href="/task16/page1/">Page 1</a> |
+            <a href="/task16/page2/">Page 2</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}
+        <p>Main content goes here.</p>
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2025 MyProject</p>
+    </footer>
+</body>
+</html>
